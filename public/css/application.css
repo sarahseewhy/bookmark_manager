@@ -4,8 +4,7 @@
 
 body {
   font-family: Helvetica, Arial, Sans-serif;
-  background-image: url(/images/extra_clean_paper.png);
-  color: #333;  
+  background-image: url(/css/images/extra_clean_paper.png)  
 }
 
 /* no links should be underlined */
@@ -27,7 +26,7 @@ a {
   border-radius: 4px; /*rounded corners*/
   margin-left: 5px;
   margin-right: 5px;
-  text-shadow: 0 0 2px rgba(0,0,0,0.4); /*for readability*/
+  text-shadow: 0 0 2px rgba(0,0,0,0.4); 
 }
 
 /* a link that has both classes. Overrides the previous declaration */
@@ -57,7 +56,7 @@ header {
   }
 
   header #user-links {
-    flex: 1; /* http://learnlayout.com/flexbox.html */
+    flex: 1; 
     -webkit-flex: 1;
     text-align: right;  
   }
@@ -163,6 +162,7 @@ min-height: 100%;
 height: auto !important;
 height: 100%;
 margin: 0 auto -4em;
+
 }
 
 .footer, .push {

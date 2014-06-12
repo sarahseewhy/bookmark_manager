@@ -9,7 +9,9 @@
 		<div class="wrapper">
 			<%= partial :header %>
 			<%= partial :flash %>
-			<%= yield %>
+			<div id='container'>
+				<%= yield %>
+			</div>
 		</div>
 			<%= partial :footer %>
 	</body>

@@ -1,19 +1,9 @@
 <div id='links-container'>
 	<ul id='links'>
 		<% @links.each do |link| %>
-			<li><a href="<% link.url %>"><%= link.title %></a></li>
+			<%= partial :link, :locals => {:link => link} %>
 		<% end %>
 	</ul>
-	<li class='link'>
-		<a class='title' href="<%= link.url %>"><%= link.title %></a>
-		<div class='description'>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-		</div>
-		<span class='source'>
-			added yesterday by
-			<a href="#">sarahseewhy@gmail.com</a>
-		</span>
-	</li>
 </div>
 
 

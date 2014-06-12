@@ -5,7 +5,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: white;
+	color: #b77843;
 }
 
 a.button {
@@ -29,7 +29,6 @@ a.button.highlighted {
 
 header {
 	height: 40px;
-	width: 100%;
 	background-color: black;
 	color: white;
 	display: flex;
@@ -42,6 +41,11 @@ header {
 
 	header #logo {
 		display: flex;
+		margin-right: 20px;
+	}
+
+	header a {
+		color: white;
 	}
 
 	header #user-links {
@@ -51,23 +55,11 @@ header {
 	}
 
 
-h1 {
-	margin-top: 10px;
-	margin-left: 10px;
-}
-
-ul {
-	margin-left: 10px;
-}
-
-#new-link {
-	margin-left: 10px;
-}
-
 #links-container {
 	background-color: white;
-	margin: 50px 50px 50px;
-	padding: 15px 15px 15px 15px;
+	margin: 40px;
+	box-shadow: 0 0 5px rgba(0,0,0,0,.4);
+	padding: 10px;
 }
 
 .link {
@@ -88,4 +80,4 @@ ul {
   .link .source {
     float: right; 
     font-size: 12px;
-  }	
+  }
